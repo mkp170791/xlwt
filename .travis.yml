@@ -37,10 +37,12 @@ matrix:
     - arch: arm64
       python: 2.7
       env: TOXENV=py27
-    - env: TOXENV=lint
     - arch: amd64
       python: 2.7
       env: TOXENV=py27
+    - arch: arm64
+    - env: TOXENV=lint
+    - arch: amd64
     - env: TOXENV=lint
 
 install:
