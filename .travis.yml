@@ -41,9 +41,9 @@ matrix:
       python: 2.7
       env: TOXENV=py27
     - arch: arm64
-    - env: TOXENV=lint
+      env: TOXENV=lint
     - arch: amd64
-    - env: TOXENV=lint
+      env: TOXENV=lint
 
 install:
   - pip install tox
